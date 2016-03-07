@@ -2,93 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a310bfe7-0d18-4468-acbf-43d89b22790f" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap/config.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap/css/bootstrap-theme.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap/css/bootstrap-theme.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap/css/bootstrap.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap/css/bootstrap.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap/fonts/glyphicons-halflings-regular.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap/fonts/glyphicons-halflings-regular.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap/fonts/glyphicons-halflings-regular.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap/fonts/glyphicons-halflings-regular.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap/fonts/glyphicons-halflings-regular.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap/js/bootstrap.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap/js/bootstrap.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seedssa/.env.example" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seedssa/.gitattributes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seedssa/.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seedssa/app/Console/Commands/Inspire.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seedssa/app/Console/Kernel.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seedssa/app/Events/Event.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seedssa/app/Exceptions/Handler.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seedssa/app/Http/Controllers/Auth/AuthController.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seedssa/app/Http/Controllers/Auth/PasswordController.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seedssa/app/Http/Controllers/Controller.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seedssa/app/Http/Kernel.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seedssa/app/Http/Middleware/Authenticate.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seedssa/app/Http/Middleware/EncryptCookies.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seedssa/app/Http/Middleware/RedirectIfAuthenticated.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seedssa/app/Http/Middleware/VerifyCsrfToken.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seedssa/app/Http/Requests/Request.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seedssa/app/Http/routes.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seedssa/app/Jobs/Job.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seedssa/app/Listeners/.gitkeep" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seedssa/app/Policies/.gitkeep" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seedssa/app/Providers/AppServiceProvider.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seedssa/app/Providers/AuthServiceProvider.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seedssa/app/Providers/EventServiceProvider.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seedssa/app/Providers/RouteServiceProvider.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seedssa/app/User.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seedssa/artisan" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seedssa/bootstrap/app.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seedssa/bootstrap/autoload.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seedssa/bootstrap/cache/.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seedssa/composer.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seedssa/composer.lock" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seedssa/config/app.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seedssa/config/auth.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seedssa/config/broadcasting.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seedssa/config/cache.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seedssa/config/compile.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seedssa/config/database.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seedssa/config/filesystems.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seedssa/config/mail.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seedssa/config/queue.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seedssa/config/services.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seedssa/config/session.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seedssa/config/view.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seedssa/database/.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seedssa/database/factories/ModelFactory.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seedssa/database/migrations/.gitkeep" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seedssa/database/migrations/2014_10_12_000000_create_users_table.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seedssa/database/migrations/2014_10_12_100000_create_password_resets_table.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seedssa/database/seeds/.gitkeep" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seedssa/database/seeds/DatabaseSeeder.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seedssa/gulpfile.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seedssa/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seedssa/phpspec.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seedssa/phpunit.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seedssa/public/.htaccess" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seedssa/public/favicon.ico" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seedssa/public/index.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seedssa/public/robots.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seedssa/readme.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seedssa/resources/assets/sass/app.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seedssa/resources/lang/en/auth.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seedssa/resources/lang/en/pagination.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seedssa/resources/lang/en/passwords.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seedssa/resources/lang/en/validation.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seedssa/resources/views/errors/503.blade.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seedssa/resources/views/welcome.blade.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seedssa/server.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seedssa/storage/app/.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seedssa/storage/framework/.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seedssa/storage/framework/cache/.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seedssa/storage/framework/sessions/.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seedssa/storage/framework/views/.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seedssa/storage/logs/.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seedssa/tests/ExampleTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/seedssa/tests/TestCase.php" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/seedssaDB/.gitignore" afterPath="$PROJECT_DIR$/seedssaDB/.gitignore" />
     </list>
     <ignored path="chispas.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -110,21 +25,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="login.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/seedssaDB/resources/views/auth/login.blade.php">
+      <file leaf-file-name="routes.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/seedssaDB/app/Http/routes.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.1666667">
-              <caret line="43" column="32" selection-start-line="43" selection-start-column="32" selection-end-line="43" selection-end-column="32" />
+            <state vertical-scroll-proportion="-2.5">
+              <caret line="13" column="29" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="routes.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/seedssaDB/app/Http/routes.php">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/seedssaDB/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.125">
-              <caret line="14" column="27" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
+            <state vertical-scroll-proportion="0.14681892">
+              <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -170,11 +85,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="footer.blade.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="footer.blade.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/seedssaDB/resources/views/layouts/partials/footer.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.21915585">
-              <caret line="9" column="14" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
+            <state vertical-scroll-proportion="-4.375">
+              <caret line="7" column="32" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
               <folding />
             </state>
           </provider>
@@ -222,12 +137,13 @@
         <option value="$PROJECT_DIR$/seedssa/app/Http/routes.php" />
         <option value="$PROJECT_DIR$/seedssa/config/app.php" />
         <option value="$PROJECT_DIR$/seedssaDB/resources/views/auth/login.blade.php" />
-        <option value="$PROJECT_DIR$/seedssaDB/app/Http/routes.php" />
         <option value="$PROJECT_DIR$/seedssaDB/.env" />
         <option value="$PROJECT_DIR$/seedssaDB/resources/views/layouts/app.blade.php" />
         <option value="$PROJECT_DIR$/seedssaDB/resources/views/layouts/partials/htmlheader.blade.php" />
         <option value="$PROJECT_DIR$/seedssaDB/resources/views/layouts/partials/mainheader.blade.php" />
         <option value="$PROJECT_DIR$/seedssaDB/resources/views/layouts/partials/footer.blade.php" />
+        <option value="$PROJECT_DIR$/seedssaDB/app/Http/routes.php" />
+        <option value="$PROJECT_DIR$/seedssaDB/.gitignore" />
       </list>
     </option>
   </component>
@@ -726,14 +642,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/seedssaDB/app/Http/routes.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.125">
-          <caret line="14" column="27" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/seedssaDB/.env">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -784,8 +692,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/seedssaDB/resources/views/layouts/partials/footer.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.21915585">
-          <caret line="9" column="14" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
+        <state vertical-scroll-proportion="-4.375">
+          <caret line="7" column="32" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/seedssaDB/app/Http/routes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.5">
+          <caret line="13" column="29" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/seedssaDB/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.14681892">
+          <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
           <folding />
         </state>
       </provider>
