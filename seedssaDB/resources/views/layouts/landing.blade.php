@@ -9,7 +9,7 @@ Landing page based on Pratt: http://blacktie.co/demo/pratt/
     <meta name="description" content="Pratt - Free Bootstrap 3 Theme">
     <meta name="author" content="Alvarez.is - BlackTie.co">
 
-    <title>Acacha AdminLTE Laravel package template Landing page - Using Pratt</title>
+    <title>Home - SEEDSSA</title>
 
     <!-- Bootstrap core CSS -->
     <link href="{{ asset('/css/bootstrap.css') }}" rel="stylesheet">
@@ -17,7 +17,7 @@ Landing page based on Pratt: http://blacktie.co/demo/pratt/
     <!-- Custom styles for this template -->
     <link href="{{ asset('/css/main.css') }}" rel="stylesheet">
 
-    <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic' rel='stylesheet' type='text/css'>
+    {{--<link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic' rel='stylesheet' type='text/css'>--}}
     <link href='http://fonts.googleapis.com/css?family=Raleway:400,300,700' rel='stylesheet' type='text/css'>
 
     <script src="{{ asset('/plugins/jQuery/jQuery-2.1.4.min.js') }}"></script>
@@ -37,15 +37,19 @@ Landing page based on Pratt: http://blacktie.co/demo/pratt/
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="#"><b>adminlte-laravel</b></a>
+            {{--<a class="navbar-brand" href="#"><b>SEEDSSA</b></a>--}}
         </div>
+
+
+
+
         <div class="navbar-collapse collapse">
-            <ul class="nav navbar-nav">
+           {{-- <ul class="nav navbar-nav">
                 <li class="active"><a href="#home" class="smoothScroll">Home</a></li>
                 <li><a href="#desc" class="smoothScroll">Description</a></li>
                 <li><a href="#showcase" class="smoothScroll">Showcase</a></li>
                 <li><a href="#contact" class="smoothScroll">Contact</a></li>
-            </ul>
+            </ul>--}}
             <ul class="nav navbar-nav navbar-right">
                 @if (Auth::guest())
                     <li><a href="{{ url('/login') }}">Login</a></li>
@@ -55,38 +59,57 @@ Landing page based on Pratt: http://blacktie.co/demo/pratt/
                 @endif
             </ul>
         </div><!--/.nav-collapse -->
+
+
+
     </div>
 </div>
 
 
 <section id="home" name="home"></section>
-<div id="headerwrap">
+<div>
     <div class="container">
         <div class="row centered">
+
             <div class="col-lg-12">
+                <br>
+                <br>
+                <br>
+                <br>
+
+
+        </div>
+
+            <div class="col-lg-12">
+                <img class="img-responsive" src="{{ asset('/img/LOGO_SEEDSSA.png') }}" alt="">
+            </div>
+
+
+            {{--<div class="col-lg-12">
                 <h1>Acacha <b><a href="https://github.com/acacha/adminlte-laravel">adminlte-laravel</a></b></h1>
                 <h3>A <a href="https://laravel.com/">Laravel</a> 5 package that switchs default Laravel
                     scaffolding/boilerplate to <a href="https://almsaeedstudio.com/preview">AdminLTE</a> template with
                     <a href="http://getbootstrap.com/">Bootstrap</a> 3.0 and <a href="http://blacktie.co/demo/pratt/">Pratt</a> Landing page</h3>
                 <h3><a href="{{ url('/register') }}" class="btn btn-lg btn-success">Get Started!</a></h3>
-            </div>
-            <div class="col-lg-2">
+            </div>--}}
+           {{-- <div class="col-lg-2">
                 <h5>Amazing admin template</h5>
                 <p>Based on adminlte bootstrap theme</p>
                 <img class="hidden-xs hidden-sm hidden-md" src="{{ asset('/img/arrow1.png') }}">
             </div>
             <div class="col-lg-8">
-                <img class="img-responsive" src="{{ asset('/img/app-bg.png') }}" alt="">
+                <img class="img-responsive" src="{{ asset('/img/LOGO_SEEDSSA.png') }}" alt="">
             </div>
             <div class="col-lg-2">
                 <br>
                 <img class="hidden-xs hidden-sm hidden-md" src="{{ asset('/img/arrow2.png') }}">
                 <h5>Awesome packaged...</h5>
                 <p>... by <a href="http://acacha.org/sergitur">Sergi Tur Badenas</a> at <a href="http://acacha.org">acacha.org</a> ready to use with Laravel!</p>
-            </div>
+            </div>--}}
         </div>
     </div> <!--/ .container -->
 </div><!--/ #headerwrap -->
+{{--
 
 
 <section id="desc" name="desc"></section>
@@ -277,6 +300,7 @@ Landing page based on Pratt: http://blacktie.co/demo/pratt/
 
     </div>
 </div>
+--}}
 
 
 <!-- Bootstrap core JavaScript

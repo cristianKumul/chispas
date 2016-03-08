@@ -1,27 +1,28 @@
 @extends('layouts.app')
 
 @section('htmlheader_title')
-	Home
+	Registros
 @endsection
 
 
 
-
 @section('main-content')
+
+
 	<section class="content-header">
 
-		<h1><b>¡Bienvenido (a)!</b> <small> ¿Qúe desea realizar?</small></h1>
+		<h1><b>Registros</b> <small> </small></h1>
 
 		<br>
 		<br>
 
 
-		<div class="col-lg-12 col-xs-12">
-		<img class="img-responsive" src="{{ asset('/img/LOGO_SEEDSSA2.png') }}" alt="">
+		{{--<div class="col-lg-12 col-xs-12">
+			<img class="img-responsive" src="{{ asset('/img/LOGO_SEEDSSA2.png') }}" alt="">
 
 			<br>
 
-		</div>
+		</div>--}}
 
 
 	</section> <!--/ .section headerr -->
@@ -32,32 +33,32 @@
 	<section class="content">
 
 
-		<div class="col-lg-4 col-xs-12">
+		<div class="col-lg-12 col-xs-12">
 			<!-- small box -->
 			<div class="small-box bg-aqua">
 				<div class="inner">
-					<h3>Registros</h3>
+					<h3>Usuarios</h3>
 
 				</div>
 				<div class="icon">
-					<i class="fa fa-file-text"></i>
+					<i class="glyphicon glyphicon-user"></i>
 				</div>
-				<a href="/form" class="small-box-footer">
+				<a href="/usuarios" class="small-box-footer">
 					Ir <i class="fa fa-arrow-circle-right"></i>
 				</a>
 			</div>
 		</div>
 
 
-		<div class="col-lg-4 col-xs-12">
+		<div class="col-lg-12 col-xs-12">
 			<!-- small box -->
 			<div class="small-box bg-yellow">
 				<div class="inner">
-					<h3>Consultas</h3>
+					<h3>Consulta</h3>
 
 				</div>
 				<div class="icon">
-					<i class="fa fa-search"></i>
+					<i class="fa fa-stethoscope"></i>
 				</div>
 				<a href="#" class="small-box-footer">
 					Ir <i class="fa fa-arrow-circle-right"></i>
@@ -66,15 +67,15 @@
 		</div>
 
 
-		<div class="col-lg-4 col-xs-12">
+		<div class="col-lg-12 col-xs-12">
 			<!-- small box -->
 			<div class="small-box bg-red">
 				<div class="inner">
-					<h3>Generar PDF</h3>
+					<h3>Anticonceptivo</h3>
 
 				</div>
 				<div class="icon">
-					<i class="fa fa-file-pdf-o"></i>
+					<i class="glyphicon glyphicon-plus"></i>
 				</div>
 				<a href="#" class="small-box-footer">
 					Ir <i class="fa fa-arrow-circle-right"></i>

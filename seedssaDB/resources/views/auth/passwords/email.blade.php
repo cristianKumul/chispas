@@ -1,15 +1,52 @@
 @extends('layouts.auth')
 
 @section('htmlheader_title')
-    Password recovery
+    Recuperar Contraseña
 @endsection
 
 @section('content')
 
+
 <body class="login-page">
+
+<div id="navigation" class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+        <div >
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+
+
+            </button>
+            {{--<a class="navbar-brand" href="#"><b>SEEDSSA</b></a>--}}
+        </div>
+
+
+
+
+        <div>
+            <ul class="nav navbar-nav navbar-right">
+
+                <li><a href="{{ url('/login') }}">Atras</a></li>
+
+
+            </ul>
+        </div><!--/.nav-collapse -->
+
+
+
+    </div>
+</div>
+
+
+<br>
+<br>
+<br>
+<br>
+
+
+
     <div class="login-box">
         <div class="login-logo">
-            <a href="{{ url('/home') }}"><b>Admin</b>LTE</a>
+            <a href="{{ url('/home') }}"><b>Recuperar Contraseña</b></a>
         </div><!-- /.login-logo -->
 
         @if (session('status'))
@@ -30,7 +67,7 @@
         @endif
 
         <div class="login-box-body">
-            <p class="login-box-msg">Reset Password</p>
+            <p class="login-box-msg">Ingrese el correo que registró para recuperar la contraseña</p>
             <form action="{{ url('/password/email') }}" method="post">
                 <input type="hidden" name="_token" value="{{ csrf_token() }}">
                 <div class="form-group has-feedback">
@@ -42,15 +79,18 @@
                     <div class="col-xs-2">
                     </div><!-- /.col -->
                     <div class="col-xs-8">
-                        <button type="submit" class="btn btn-primary btn-block btn-flat">Send Password Reset Link</button>
+                        <button type="submit" class="btn btn-primary btn-block btn-flat">Enviar</button>
                     </div><!-- /.col -->
                     <div class="col-xs-2">
                     </div><!-- /.col -->
                 </div>
             </form>
 
-            <a href="{{ url('/login') }}">Log in</a><br>
-            <a href="{{ url('/register') }}" class="text-center">Register a new membership</a>
+
+            <br>
+            <br>
+            <a href="{{ url('/login') }}">Iniciar sesión</a><br>
+            <a href="{{ url('/register') }}" class="text-center">Registrar un nuevo usuario</a>
 
         </div><!-- /.login-box-body -->
 

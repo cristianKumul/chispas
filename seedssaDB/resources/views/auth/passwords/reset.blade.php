@@ -1,15 +1,51 @@
 @extends('layouts.auth')
 
 @section('htmlheader_title')
-    Password reset
+    Password Reset
+
 @endsection
 
 @section('content')
 
     <body class="login-page">
+
+    <div id="navigation" class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                {{--<a class="navbar-brand" href="#"><b>SEEDSSA</b></a>--}}
+            </div>
+
+
+
+
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav navbar-right">
+
+                    <li><a href="{{ url('/') }}">Atras</a></li>
+
+
+                </ul>
+            </div><!--/.nav-collapse -->
+
+
+
+        </div>
+    </div>
+
+
+
+
+
+
+
     <div class="login-box">
         <div class="login-logo">
-            <a href="{{ url('/home') }}"><b>Admin</b>LTE</a>
+            <a href="{{ url('/home') }}"><b>Recuperar contraseña</b></a>
         </div><!-- /.login-logo -->
 
         @if (session('status'))
@@ -30,7 +66,7 @@
         @endif
 
         <div class="login-box-body">
-            <p class="login-box-msg">Reset Password</p>
+            <p class="login-box-msg">Recuperar contraseña</p>
             <form action="{{ url('/password/reset') }}" method="post">
                 <input type="hidden" name="_token" value="{{ csrf_token() }}">
                 <input type="hidden" name="token" value="{{ $token }}">

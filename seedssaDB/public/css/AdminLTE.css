@@ -10,8 +10,8 @@
  * Core: General Layout Style
  * -------------------------
  */
-html,
-body {
+html{
+  /*background-color: purple;*/
   min-height: 100%;
 }
 .layout-boxed html,
