@@ -1,17 +1,20 @@
 <!-- Main Header -->
 <header class="main-header">
 
-    <!-- Logo -->{{--
-    <a href="{{ url('/home') }}" class="logo">
-        <!-- mini logo for sidebar mini 50x50 pixels -->
+    <!-- Logo -->
+      <a href="{{ url('/home') }}" class="logo">
+
         <span class="logo-mini">
 
+             <div class="pull-left image">
+                 <img src="{{asset('/img/logo_perfil.jpg')}}" class="img-responsive"  />
+             </div>
 
 
         </span>
-        <!-- logo for regular state and mobile devices -->
+
         <span class="logo-lg"><b>Admin</b>SEEDSSA</span>
-    </a>--}}
+    </a>
 
     <!-- Header Navbar -->
     <nav class="navbar navbar-static-top" role="navigation">

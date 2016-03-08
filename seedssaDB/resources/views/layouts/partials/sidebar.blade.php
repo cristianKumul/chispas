@@ -7,7 +7,7 @@
 
 
         <!-- Sidebar user panel (optional) -->
-        @if (! Auth::guest())
+       {{-- @if (! Auth::guest())
            <div class="user-panel">
                 <div class="pull-left image">
                     <img src="{{asset('/img/logo_perfil.jpg')}}" class="img-responsive"  />
@@ -18,10 +18,10 @@
                    <br>
                     <p>{{ Auth::user()->name }}</p>
                     <!-- Status -->
-                    {{--<a href="#"><i class="fa fa-circle text-success"></i> Online</a>--}}
+                    --}}{{--<a href="#"><i class="fa fa-circle text-success"></i> Online</a>--}}{{--
                 </div>
             </div>
-        @endif
+        @endif--}}
 
         <!-- search form (Optional) -->
         {{--<form action="#" method="get" class="sidebar-form">
@@ -38,10 +38,10 @@
         <ul class="sidebar-menu">
             <li class="header"></li>
             <!-- Optionally, you can add icons to the links -->
-            <li class="active"><a href="{{ url('home') }}"><i class='fa fa-link'></i> <span>Home</span></a></li>
-            <li><a href="{{ url('form') }}"><i class='fa fa-link'></i> <span>Registros</span></a>
+            {{--<li class="active"><a href="{{ url('home') }}"><i class='fa fa-link'></i> <span>Home</span></a></li>--}}
+            <li><a href="{{ url('form') }}"><i class='fa fa-link'></i> <span>Consultorio</span></a>
                 <ul class="treeview-menu">
-                    <li><a href="#">Usuarios</a></li>
+                    <li><a href="/usuarios">Usuarios</a></li>
                     <li><a href="#">Consulta</a></li>
                     <li><a href="#">Anticonceptivo</a></li>
 

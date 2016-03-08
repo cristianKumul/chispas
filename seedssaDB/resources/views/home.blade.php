@@ -10,26 +10,34 @@
 @section('main-content')
 	<section class="content-header">
 
-		<h1><b>¡Bienvenido (a)!</b> <small> ¿Qúe desea realizar?</small></h1>
+		<h1><b>¡Bienvenido (a)!</b> </h1>
 
-		<br>
-		<br>
+		<section class="content">
+
+			<div class="col-lg-12 col-xs-12">
+				<img class="img-responsive" src="{{ asset('/img/LOGO_SEEDSSA2.png') }}" alt="">
 
 
-		<div class="col-lg-12 col-xs-12">
-		<img class="img-responsive" src="{{ asset('/img/LOGO_SEEDSSA2.png') }}" alt="">
 
-			<br>
+			</div>
 
-		</div>
+
+		</section>
+
+
+
 
 
 	</section> <!--/ .section headerr -->
 
-	<br>
 
 
-	<section class="content">
+
+
+@endsection
+
+
+	{{--<section class="content">
 
 
 		<div class="col-lg-4 col-xs-12">
@@ -80,7 +88,7 @@
 					Ir <i class="fa fa-arrow-circle-right"></i>
 				</a>
 			</div>
-		</div>
+		</div>--}}
 
 
 
@@ -93,7 +101,7 @@
 
 
 
-	</section>
+	{{--</section>--}}
 
 
 
@@ -131,4 +139,4 @@
 
 
 
-@endsection
+
