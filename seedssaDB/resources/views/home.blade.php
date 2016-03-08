@@ -8,27 +8,54 @@
 
 
 @section('main-content')
-	<section class="content-header">
 
-		<h1><b>¡Bienvenido (a)!</b> </h1>
 
-		<section class="content">
+
+
+
+
+			{{--<div class="col-lg-6 col-xs-12">
+				<img class="img-responsive" src="{{ asset('/img/LOGO_SEEDSSA2.png') }}" alt="">
+
+
+
+			</div--}}
+			{{--<div class="col-lg-3 col-xs-12 col-md-offset-1">
+
+
+
+			</div>
+--}}
+
+
+
+
+
+
+
+
+
+
+
+	<section class="content">
+		<h2><b>¡Bienvenid@!</b> </h2>
+
+		<div class="main row">
+
 
 			<div class="col-lg-12 col-xs-12">
-				<img class="img-responsive" src="{{ asset('/img/LOGO_SEEDSSA2.png') }}" alt="">
+				<img class="img-responsive" src="{{ asset('/img/imagen_yo_decido.jpg') }}" alt="">
 
 
 
 			</div>
 
-
-		</section>
-
+		</div>
 
 
 
 
-	</section> <!--/ .section headerr -->
+	</section>
 
 
 

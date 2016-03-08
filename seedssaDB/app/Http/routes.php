@@ -27,6 +27,98 @@ Route::get('/usuarios', function () {
 });
 
 
+/*---------------------------------------
+ * MODULO DE ADMINISTRACIÓN RUTAS
+ * ---------------------------------------
+ *
+ *
+ */
+
+Route::get('/recepcionista', function () {
+    return view('recepcionista');
+});
+
+
+Route::get('/admin', function () {
+    return view('admin');
+});
+
+Route::get('/practicante', function () {
+    return view('practicante');
+});
+
+
+Route::get('/servicioso', function () {
+    return view('servicioso');
+});
+
+
+/*---------------------------------------
+ * MODULO DE CONSULTORIO
+ * ---------------------------------------
+ *
+ *
+ */
+
+
+
+
+
+Route::get('/consulta', function () {
+    return view('consulta');
+});
+
+Route::get('/anticonceptivo', function () {
+    return view('anticonceptivo');
+});
+
+
+Route::get('/busqueda', function () {
+    return view('busqueda');
+});
+
+
+
+/*---------------------------------------
+ * MODULO DE CONSULTORIO
+ * ---------------------------------------
+ *
+ *
+ */
+
+Route::get('/ventas', function () {
+    return view('ventas');
+});
+
+Route::get('/activos', function () {
+    return view('activos');
+});
+
+
+
+/*---------------------------------------
+ * MODULO DE CONSULTORIO
+ * ---------------------------------------
+ *
+ *
+ */
+
+Route::get('/reporactivos', function () {
+    return view('reporactivos');
+});
+
+Route::get('/reporconsultorio', function () {
+    return view('reporconsultorio');
+});
+
+
+
+Route::get('/condones', function () {
+    return view('condones');
+});
+
+
+
 /*
 |--------------------------------------------------------------------------
 | Application Routes

@@ -22,10 +22,30 @@
     <!-- iCheck -->
     <link href="{{ asset('/plugins/iCheck/square/purple.css') }}" rel="stylesheet" type="text/css" />
 
+
+   {{--<link rel="stylesheet" href="../../plugins/datepicker/datepicker3.css">
+                <script src="../../plugins/datepicker/bootstrap-datepicker.js"></script>
+    <script src="../../plugins/jQuery/jQuery-2.1.4.min.js"></script>
+
+
+--}}
+
+
+           <!-- daterange picker -->
+
+    <link rel="../../plugins/datepicker/datepicker3.css"/>
+
+
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
+    <!--[if lt IE 9]-->
+
+
+
+
     <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
+
+
 </head>

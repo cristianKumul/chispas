@@ -4,14 +4,9 @@
     <!-- Logo -->
       <a href="{{ url('/home') }}" class="logo">
 
-        <span class="logo-mini">
+        <span class="logo-mini"><li class="glyphicon glyphicon-home"></li> </span>
 
-             <div class="pull-left image">
-                 <img src="{{asset('/img/logo_perfil.jpg')}}" class="img-responsive"  />
-             </div>
-
-
-        </span>
+                 {{--<img src="{{asset('/img/logo_perfil.jpg')}}" class="img-responsive"  />--}}
 
         <span class="logo-lg"><b>Admin</b>SEEDSSA</span>
     </a>

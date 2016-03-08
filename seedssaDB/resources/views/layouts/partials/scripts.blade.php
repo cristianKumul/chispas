@@ -11,3 +11,15 @@
       Both of these plugins are recommended to enhance the
       user experience. Slimscroll is required when using the
       fixed layout. -->
+
+
+
+<script src="{{asset('/plugins/datepicker/bootstrap-datepicker.js')}}"  type="text/javascript" ></script>
+
+{{--datapicker en usuarios.blade.php--}}
+<script>
+    $('#reservation').datepicker();
+</script>
+
+
+
