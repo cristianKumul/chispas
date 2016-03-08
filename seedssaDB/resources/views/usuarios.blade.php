@@ -4,7 +4,6 @@
     Usuarios
 @endsection
 
-
 @section('main-content')
     <section class="content-header">
 
@@ -56,20 +55,21 @@
 
 
 
-                                <!-- Date range -->
-                                <div class="form-group">
-                                    <label>Fecha de visita</label>
-                                    <div class="input-group">
-                                        <div class="input-group-addon">
-                                            <i class="fa fa-calendar"></i>
-                                        </div>
-                                        <input type="text" class="form-control pull-right" id="reservation">
-                                    </div><!-- /.input group -->
-                                </div><!-- /.form group -->
+                            <!-- Date range -->
+                            <div class="form-group">
+                                <label>Fecha de visita</label>
+                                <div class="input-group">
+                                    <div class="input-group-addon">
+                                        <i class="fa fa-calendar"></i>
+                                    </div>
+                                    <input type="text" class="form-control pull-right" id="reservation">
+                                </div><!-- /.input group -->
+                            </div><!-- /.form group -->
 
 
 
-                            
+
+
 
 
 
@@ -403,5 +403,5 @@
         </div>   <!-- /.row -->
     </section>
 
-
+    <script src="../../plugins/timepicker/bootstrap-timepicker.min.js"></script>
 @endsection

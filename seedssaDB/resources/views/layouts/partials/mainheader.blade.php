@@ -1,13 +1,17 @@
 <!-- Main Header -->
 <header class="main-header">
 
-    <!-- Logo -->
+    <!-- Logo -->{{--
     <a href="{{ url('/home') }}" class="logo">
         <!-- mini logo for sidebar mini 50x50 pixels -->
-        <span class="logo-mini"><b>A</b>S</span>
+        <span class="logo-mini">
+
+
+
+        </span>
         <!-- logo for regular state and mobile devices -->
         <span class="logo-lg"><b>Admin</b>SEEDSSA</span>
-    </a>
+    </a>--}}
 
     <!-- Header Navbar -->
     <nav class="navbar navbar-static-top" role="navigation">
@@ -108,25 +112,31 @@
                         </li>
                     </ul>
                 </li>--}}
-                @if (Auth::guest())
-                    <li><a href="{{ url('/login') }}">Login</a></li>
-                    <li><a href="{{ url('/register') }}">Register</a></li>
-                @else
-                    <!-- User Account Menu -->
+              {{--  @if (Auth::guest())--}}
+
                     <li class="dropdown user user-menu">
                         <!-- Menu Toggle Button -->
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">
                             <!-- The user image in the navbar-->
-                            {{--<img src="/img/user2-160x160.jpg" class="user-image" alt="User Image"/>
-                            <!-- hidden-xs hides the username on small devices so only the image appears. -->
-                            <span class="hidden-xs">{{ Auth::user()->name }}</span>--}}
+                    {{--<img src="/img/user2-160x160.jpg" class="user-image" alt="User Image"/>
+                    <!-- hidden-xs hides the username on small devices so only the image appears. -->
+                    <span class="hidden-xs">{{ Auth::user()->name }}</span>--}}
 
-                            <li class="hidden-xs"><a href="{{ url('/logout') }}">Sign out </a></li>
-                        </a>
+                    <li class="hidden-xs"><a href="{{ url('/logout') }}">Sign out </a></li>
+                    </a>
 
 
 
                     </li>
+
+
+
+                {{--@else
+                    <!-- User Account Menu -->
+
+                    <li><a href="{{ url('/login') }}">Login</a></li>
+                    <li><a href="{{ url('/register') }}">Register</a></li>--}}
+
                         {{--<ul class="dropdown-menu">
                             <!-- The user image in the menu -->
                             --}}{{--<li class="user-header">
@@ -157,7 +167,7 @@
                             </li>
                         </ul>--}}
 
-                @endif
+
 
                 <!-- Control Sidebar Toggle Button -->
                 {{--<li>
