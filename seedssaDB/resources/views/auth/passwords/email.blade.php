@@ -1,7 +1,7 @@
 @extends('layouts.auth')
 
 @section('htmlheader_title')
-    Recuperar Contraseña
+    Recuperar contraseña
 @endsection
 
 @section('content')
@@ -9,44 +9,13 @@
 
 <body class="login-page">
 
-<div id="navigation" class="navbar navbar-default navbar-fixed-top">
-    <div class="container">
-        <div >
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
 
-
-            </button>
-            {{--<a class="navbar-brand" href="#"><b>SEEDSSA</b></a>--}}
-        </div>
-
-
-
-
-        <div>
-            <ul class="nav navbar-nav navbar-right">
-
-                <li><a href="{{ url('/login') }}">Atras</a></li>
-
-
-            </ul>
-        </div><!--/.nav-collapse -->
-
-
-
-    </div>
-</div>
-
-
-<br>
-<br>
-<br>
-<br>
 
 
 
     <div class="login-box">
         <div class="login-logo">
-            <a href="{{ url('/home') }}"><b>Recuperar Contraseña</b></a>
+            <a href="{{ url('/') }}"><b>Recuperar Contraseña</b></a>
         </div><!-- /.login-logo -->
 
         @if (session('status'))

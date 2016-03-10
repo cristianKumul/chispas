@@ -1,6 +1,21 @@
 <!-- Main Header -->
 <header class="main-header">
 
+
+    {{--<link href="{{ asset('/css/bootstrap.css') }}" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="{{ asset('/css/main.css') }}" rel="stylesheet">
+
+    --}}{{--<link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic' rel='stylesheet' type='text/css'>--}}{{--
+    <link href='http://fonts.googleapis.com/css?family=Raleway:400,300,700' rel='stylesheet' type='text/css'>
+
+    <link href="{{ asset('/plugins/iCheck/square/purple.css') }}" rel="stylesheet" type="text/css" />
+
+
+    <script src="{{asset('/plugins/iCheck/icheck.js')}}" type="text/javascript"></script>--}}
+
+
     <!-- Logo -->
       <a href="{{ url('/home') }}" class="logo">
 
@@ -110,15 +125,15 @@
                         </li>
                     </ul>
                 </li>--}}
-              {{--  @if (Auth::guest())--}}
+              @if (!Auth::guest())
 
                     <li class="dropdown user user-menu">
                         <!-- Menu Toggle Button -->
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                    <a href="/home" class="dropdown-toggle" data-toggle="dropdown">
                             <!-- The user image in the navbar-->
-                    {{--<img src="/img/user2-160x160.jpg" class="user-image" alt="User Image"/>
+                    <img src="/img/user2-160x160.jpg" class="user-image" alt="User Image"/>
                     <!-- hidden-xs hides the username on small devices so only the image appears. -->
-                    <span class="hidden-xs">{{ Auth::user()->name }}</span>--}}
+                    <span class="hidden-xs">{{ Auth::user()->name }}</span>
 
                     <li class="hidden-xs"><a href="{{ url('/logout') }}">Sign out </a></li>
                     </a>
@@ -126,6 +141,7 @@
 
 
                     </li>
+                @endif
 
 
 

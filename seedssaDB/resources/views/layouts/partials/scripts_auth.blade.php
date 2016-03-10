@@ -4,3 +4,19 @@
 <script src="{{ asset('/js/bootstrap.min.js') }}" type="text/javascript"></script>
 <!-- iCheck -->
 <script src="{{ asset('/plugins/iCheck/icheck.min.js') }}" type="text/javascript"></script>
+
+
+<script>
+
+    $(function () {
+        $('input').iCheck({
+            checkboxClass: 'icheckbox_square-purple',
+            radioClass: 'iradio_square-purple',
+            increaseArea: '20%' // optional
+        });
+    });
+
+
+
+
+</script>

@@ -1,42 +1,15 @@
 @extends('layouts.auth')
 
 @section('htmlheader_title')
-    Registro
+    Registarse
 @endsection
 
 @section('content')
-
-    <body class="hold-transition register-page">
-
-
-    <div id="navigation" class="navbar navbar-default navbar-fixed-top">
-        <div class="container">
-            <div>
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"></button>
-                {{--<a class="navbar-brand" href="#"><b>SEEDSSA</b></a>--}}
-            </div>
-            <div>
-                <ul class="nav navbar-nav navbar-right">
-
-                        <li><a href="{{ url('/') }}">Atras</a></li>
-
-
-                </ul>
-            </div>
-        </div>
-    </div>
-
-
-
-    <br>
-    <br>
-    <br>
-    <br>
-
+ <body class="hold-transition register-page">
 
     <div class="register-box">
         <div class="register-logo">
-            <a href="{{ url('/home') }}"><b>Registro</b></a>
+            <a href="{{ url('/') }}"><b>Registro</b></a>
         </div>
 
         @if (count($errors) > 0)
@@ -94,14 +67,7 @@
 
     @include('layouts.partials.scripts_auth')
 
-    <script>
-        $(function () {
-            $('input').iCheck({
-                checkboxClass: 'icheckbox_square-blue',
-                radioClass: 'iradio_square-blue',
-                increaseArea: '20%' // optional
-            });
-        });
+
     </script>
 </body>
 
