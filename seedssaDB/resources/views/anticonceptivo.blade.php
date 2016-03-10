@@ -48,182 +48,148 @@
                             <!-- FALTA IDENTIFICADORES PENDIENTE -->
 
 
-
-
-
-
+                            <div class="col-md-6"> <!-- DIV -->
+                        <div>
                             <label>Alergias</label>
+                            <br>
+                                <button name="alergiasa" value="si"  type="button" class="btn btn-info" id="btn">Si</button>
+                                <button name="alergiasa" value="no" type="button" class="btn btn-info" id="btnclear">No</button>
 
-
-                                    <label>
-                                        <input type="radio" name="optionsRadios" class="rg" id="r1">
-                                        Si
-                                    </label>
-
-                                    <label>
-                                        <input type="radio" name="optionsRadios" class="rg" id="r2">
-                                        No
-                                    </label>
-
-                                <input type="text" id=r1edit placeholder="Enter ...">
-
-
-
-
-
-
-
-
-
-
-                            <div class="form-group">
-                                <label>Enfermedades Infectocontagiosas</label>
-                                <select class="form-control">
-                                    <option>Seleccionar...</option>
-                                    <option>Si</option>
-                                    <option>No</option>
-                                    <option>No se</option>
-
-
-                                </select>
-                            </div>
-
-
-                            <div class="form-group">
+                            <div class="collapse" id="desplegar">
+                                <br>
                                 <label>¿Cuáles?</label>
-                                <input type="text" class="form-control" placeholder="">
+                                <br>
+                                <textarea name="textalergiasa" class="form-control" rows="3" id="text" placeholder=""></textarea>
                             </div>
+                        </div>
+                            <br>
+                        <div>
+                            <label>Enfermedades Infectocontagiosas</label>
+                            <br>
+                            <button name="enfermedadesinfeca" value="si" type="button" class="btn btn-info" id="btn1">Si</button>
+                            <button name="enfermedadesinfeca" value="no" type="button" class="btn btn-info" id="btnclear1">No</button>
 
-
-                            <div class="form-group">
-                                <label>Enfermedades Crónicas</label>
-                                <select class="form-control">
-                                    <option>Seleccionar...</option>
-                                    <option>Si</option>
-                                    <option>No</option>
-                                    <option>No se</option>
-
-
-                                </select>
-                            </div>
-
-
-                            <div class="form-group">
+                            <div class="collapse" id="desplegar1">
+                                <br>
                                 <label>¿Cuáles?</label>
-                                <input type="text" class="form-control" placeholder="">
+                                <br>
+                                <textarea name="textenfermedadesinfeca" class="form-control" rows="3" id="text1" placeholder=""></textarea>
                             </div>
+                        </div>
+                            <br>
+                        <div>
+                            <label>Enfermedades Crónicas</label>
+                            <br>
+                            <button name="enfermedadescroa" value="si" type="button" class="btn btn-info" id="btn2">Si</button>
+                            <button name="enfermedadescroa" value="no" type="button" class="btn btn-info" id="btnclear2">No</button>
 
-                            <div class="form-group">
-                                <label>Cirugía Hospitalización</label>
-                                <select class="form-control">
-                                    <option>Seleccionar...</option>
-                                    <option>Si</option>
-                                    <option>No</option>
-                                    <option>No se</option>
-
-
-                                </select>
-                            </div>
-
-
-                            <div class="form-group">
+                            <div class="collapse" id="desplegar2">
+                                <br>
                                 <label>¿Cuáles?</label>
-                                <input type="text" class="form-control" placeholder="">
+                                <br>
+                                <textarea name="textenfermedadescroa" class="form-control" rows="3" id="text2" placeholder=""></textarea>
                             </div>
+                        </div>
+                        <br>
+                        <div>
+                            <label>Cirugía con Hospitalización</label>
+                            <br>
+                            <button name="cirugiaa" value="si" type="button" class="btn btn-info" id="btn3">Si</button>
+                            <button name="cirugiaa" value="no" type="button" class="btn btn-info" id="btnclear3">No</button>
 
-
-                            <div class="form-group">
-                                <label>Uso de medicamentos</label>
-                                <select class="form-control">
-                                    <option>Seleccionar...</option>
-                                    <option>Si</option>
-                                    <option>No</option>
-                                    <option>No se</option>
-
-
-                                </select>
-                            </div>
-
-
-                            <div class="form-group">
+                            <div class="collapse" id="desplegar3">
+                                <br>
                                 <label>¿Cuáles?</label>
-                                <input type="text" class="form-control" placeholder="">
+                                <br>
+                                <textarea name="textcirugiaa" class="form-control" rows="3" id="text3" placeholder=""></textarea>
                             </div>
+                        </div>
+                        <br>
 
 
-                            <div class="form-group">
+                            <div>
+                                <label>Uso de Medicamentos</label>
+                                <br>
+                                <button name="medicamentoa" value="si" type="button" class="btn btn-info" id="btn4">Si</button>
+                                <button name="medicamentoa" value="no" type="button" class="btn btn-info" id="btnclear4">No</button>
+
+                                <div class="collapse" id="desplegar4">
+                                    <br>
+                                    <label>¿Cuáles?</label>
+                                    <br>
+                                    <textarea name="textmedicamentoa" class="form-control" rows="3" id="text4" placeholder=""></textarea>
+                                </div>
+                            </div>
+                            <br>
+
+                            </div>  <!-- DIV -->
+
+
+
+                            <div class="col-md-6">  <!-- DIV -->
+
+
+                            <div>
                                 <label>Problemas Psicológicos</label>
-                                <select class="form-control">
-                                    <option>Seleccionar...</option>
-                                    <option>Si</option>
-                                    <option>No</option>
-                                    <option>No se</option>
+                                <br>
+                                <button name="psicologicoa" value="si" type="button" class="btn btn-info" id="btn5">Si</button>
+                                <button name="psicologicoa" value="no" type="button" class="btn btn-info" id="btnclear5">No</button>
 
-
-                                </select>
+                                <div class="collapse" id="desplegar5">
+                                    <br>
+                                    <label>¿Cuáles?</label>
+                                    <br>
+                                    <textarea name="textpsicologicoa" class="form-control" rows="3" id="text5" placeholder=""></textarea>
+                                </div>
                             </div>
+                            <br>
 
 
-                            <div class="form-group">
-                                <label>¿Cuáles?</label>
-                                <input type="text" class="form-control" placeholder="">
+
+                            <div>
+                                <label>Cardiovascular</label>
+                                <br>
+                                <button name="cardioa" value="si" type="button" class="btn btn-info" id="btn6">Si</button>
+                                <button name="cardioa" value="no" type="button" class="btn btn-info" id="btnclear6">No</button>
+
+                                <div class="collapse" id="desplegar6">
+                                    <br>
+                                    <label>¿Cuáles?</label>
+                                    <br>
+                                    <textarea name="textcardioa" class="form-control" rows="3" id="text6" placeholder=""></textarea>
+                                </div>
                             </div>
-
-                            <div class="form-group">
-                                <label>Problemas Cardiovasculares</label>
-                                <select class="form-control">
-                                    <option>Seleccionar...</option>
-                                    <option>Si</option>
-                                    <option>No</option>
-                                    <option>No se</option>
-
-
-                                </select>
-                            </div>
-
-
-                            <div class="form-group">
-                                <label>¿Cuáles?</label>
-                                <input type="text" class="form-control" placeholder="">
-                            </div>
-
-
-                            <div class="form-group">
+                            <br>
+                            <div>
                                 <label>Infecciones</label>
-                                <select class="form-control">
-                                    <option>Seleccionar...</option>
-                                    <option>Si</option>
-                                    <option>No</option>
-                                    <option>No se</option>
+                                <br>
+                                <button type="button" class="btn btn-info" id="btn7">Si</button>
+                                <button type="button" class="btn btn-info" id="btnclear7">No</button>
 
-
-                                </select>
+                                <div class="collapse" id="desplegar7">
+                                    <br>
+                                    <label>¿Cuáles?</label>
+                                    <br>
+                                    <textarea class="form-control" rows="3" id="text7" placeholder=""></textarea>
+                                </div>
                             </div>
+                            <br>
 
-
-                            <div class="form-group">
-                                <label>¿Cuáles?</label>
-                                <input type="text" class="form-control" placeholder="">
-                            </div>
-
-                            <div class="form-group">
+                            <div>
                                 <label>Cáncer</label>
-                                <select class="form-control">
-                                    <option>Seleccionar...</option>
-                                    <option>Si</option>
-                                    <option>No</option>
-                                    <option>No se</option>
+                                <br>
+                                <button type="button" class="btn btn-info" id="btn8">Si</button>
+                                <button type="button" class="btn btn-info" id="btnclear8">No</button>
 
-
-                                </select>
+                                <div class="collapse" id="desplegar8">
+                                    <br>
+                                    <label>¿Cuáles?</label>
+                                    <br>
+                                    <textarea class="form-control" rows="3" id="text8" placeholder=""></textarea>
+                                </div>
                             </div>
-
-
-                            <div class="form-group">
-                                <label>¿Cuáles?</label>
-                                <input type="text" class="form-control" placeholder="">
-                            </div>
-
+                            <br>
+                            </div>  <!-- DIV -->
 
 
                     </form>
@@ -252,50 +218,66 @@
 
 
 
+                        <label>Tabáco</label>
                         <div class="form-group">
-                            <label>Tabáco</label>
-                            <select class="form-control">
-                                <option>Seleccionar...</option>
-                                <option>Si</option>
-                                <option>No</option>
+                            <div class="radio">
 
+                                <label>
+                                    <input type="radio" name="tabacoa" id="optionsRadios1" value="si">
+                                    Si
+                                </label>
+                            </div>
+                            <div class="radio">
+                                <label>
+                                    <input type="radio" name="tabacoa" id="optionsRadios2" value="no">
+                                    No
+                                </label>
+                            </div>
 
-
-                            </select>
                         </div>
 
 
+                        <label>Alcohol</label>
                         <div class="form-group">
-                            <label>Alcohol</label>
-                            <select class="form-control">
-                                <option>Seleccionar...</option>
-                                <option>Si</option>
-                                <option>No</option>
+                            <div class="radio">
 
+                                <label>
+                                    <input type="radio" name="alcohola" id="optionsRadios1" value="si" >
+                                    Si
+                                </label>
+                            </div>
+                            <div class="radio">
+                                <label>
+                                    <input type="radio" name="alcohola" id="optionsRadios2" value="no">
+                                    No
+                                </label>
+                            </div>
 
-
-                            </select>
                         </div>
 
 
-
-                        <div class="form-group">
+                        <div>
                             <label>Otras sustancias</label>
-                            <select class="form-control">
-                                <option>Seleccionar...</option>
-                                <option>Si</option>
-                                <option>No</option>
-                                <option>No se</option>
+                            <br>
+                            <button type="button" class="btn btn-info" id="btn9">Si</button>
+                            <button type="button" class="btn btn-info" id="btnclear9">No</button>
 
-
-                            </select>
+                            <div class="collapse" id="desplegar9">
+                                <br>
+                                <label>¿Cuáles?</label>
+                                <br>
+                                <textarea class="form-control" rows="3" id="text9" placeholder=""></textarea>
+                            </div>
                         </div>
+                        <br>
 
 
-                        <div class="form-group">
-                            <label>¿Cuáles?</label>
-                            <input type="text" class="form-control" placeholder="">
-                        </div>
+
+
+
+
+
+
 
 
 
@@ -326,30 +308,54 @@
                         <!-- FALTA IDENTIFICADORES PENDIENTE -->
 
 
-
-                        <div class="form-group">
+                        <div class="form-group has-feedback">
                             <label>Inicio de vidad sexual</label>
-                            <input type="number" class="form-control" placeholder="">
+
+                            <input name="vidasexuala" type="number" class="form-control" placeholder="Edad" min="1" step="1" max="99">
+
                         </div>
 
 
-                        <div class="form-group">
+                        <div class="form-group has-feedback">
                             <label>Número de parejas sexuales</label>
-                            <input type="number" class="form-control" placeholder="">
+
+                            <input name="parejasexuala" type="number" class="form-control" placeholder="Cantidad" min="1" step="1" max="99">
+
                         </div>
 
 
+                        <label>Embarazos previos</label>
                         <div class="form-group">
-                            <label>Embarazos previos</label>
-                            <select class="form-control">
-                                <option>Seleccionar...</option>
-                                <option>Ninguno</option>
-                                <option>Parto</option>
-                                <option>Aborto</option>
+                            <div class="radio">
 
+                                <label>
+                                    <input type="radio" name="embarazoa" id="optionsRadios1" value="ninguno" >
+                                    Ninguno
+                                </label>
+                            </div>
+                            <div class="radio">
+                                <label>
+                                    <input type="radio" name="embarazoa" id="optionsRadios2" value="Parto">
+                                    Parto
+                                </label>
+                            </div>
+                            <div class="radio">
+                                <label>
+                                    <input type="radio" name="embarazoa" id="optionsRadios2" value="Aborto">
+                                    Aborto
+                                </label>
+                            </div>
 
-                            </select>
                         </div>
+
+
+
+
+
+
+
+
+
 
 
                         <label>¿Es primera vez que usa un método anticonceptivo?</label>
@@ -357,13 +363,13 @@
                             <div class="radio">
 
                                 <label>
-                                    <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked="">
+                                    <input type="radio" name="primeraantia" id="optionsRadios1" value="si">
                                     Si
                                 </label>
                             </div>
                             <div class="radio">
                                 <label>
-                                    <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
+                                    <input type="radio" name="primeraantia" id="optionsRadios2" value="no">
                                     No
                                 </label>
                             </div>
@@ -371,17 +377,32 @@
                         </div>
 
 
+
+
+                        <label>Método elegido</label>
                         <div class="form-group">
-                            <label>Método elegido</label>
-                            <select class="form-control">
-                                <option>Seleccionar...</option>
-                                <option>Inyecciones/blancas</option>
-                                <option>Inyecciones de agua/aceite</option>
-                                <option>Pastillas</option>
+                            <div class="radio">
 
+                                <label>
+                                    <input type="radio" name="metodoa" id="optionsRadios1" value="Inyecciones/blancas" >
+                                    Inyecciones/blancas
+                                </label>
+                            </div>
+                            <div class="radio">
+                                <label>
+                                    <input type="radio" name="metodoa" id="optionsRadios2" value="Inyecciones de agua/aceite">
+                                    Inyecciones de agua/aceite
+                                </label>
+                            </div>
+                            <div class="radio">
+                                <label>
+                                    <input type="radio" name="metodoa" id="optionsRadios2" value="Pastillas">
+                                    Pastillas
+                                </label>
+                            </div>
 
-                            </select>
                         </div>
+
 
 
                         <!-- Date picker -->
@@ -391,34 +412,30 @@
                                 <div class="input-group-addon">
                                     <i class="fa fa-calendar"></i>
                                 </div>
-                                <input type="text" class="form-control pull-right active"   id="reservation">
+                                <input name="fechametodoa" type="text" class="form-control pull-right active"   id="reservation">
 
                             </div><!-- /.input group -->
                         </div><!-- /.form group -->
 
 
-                        <label>Condones</label>
-                        <div class="form-group">
-                            <div class="radio">
 
-                                <label>
-                                    <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked="">
-                                    Si
-                                </label>
-                            </div>
-                            <div class="radio">
-                                <label>
-                                    <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
-                                    No
-                                </label>
-                            </div>
+                        <div>
+                            <label>Condones</label>
+                            <br>
+                            <button type="button" class="btn btn-info" id="btn10">Si</button>
+                            <button type="button" class="btn btn-info" id="btnclear10">No</button>
 
+                            <div class="collapse" id="desplegar10">
+                                <br>
+                                <label>¿Cuántos?</label>
+                                <br>
+                                <input name="cuotac" id="text10" type="number" class="form-control" min="1" step="1" max="999">
+                            </div>
                         </div>
 
-                        <div class="form-group">
-                            <label>¿Cuántos?</label>
-                            <input type="number" class="form-control" placeholder="">
-                        </div>
+
+
+
 
 
 

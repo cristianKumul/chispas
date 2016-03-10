@@ -45,13 +45,13 @@
                             <div class="radio">
 
                                 <label>
-                                    <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked="">
+                                    <input type="radio" name="visitac" id="optionsRadios1" value="primeravez" >
                                     Primera vez
                                 </label>
                             </div>
                             <div class="radio">
                                 <label>
-                                    <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
+                                    <input type="radio" name="visitac" id="optionsRadios2" value="consecutiva">
                                     Consecutiva
                                 </label>
                             </div>
@@ -67,7 +67,7 @@
                                 <div class="input-group-addon">
                                     <i class="fa fa-calendar"></i>
                                 </div>
-                                <input type="text" class="form-control pull-right active"   id="reservation">
+                                <input name="fechavisitac" type="text" class="form-control pull-right active"   id="reservation">
 
                             </div><!-- /.input group -->
                         </div><!-- /.form group -->
@@ -80,13 +80,13 @@
                             <div class="radio">
 
                                 <label>
-                                    <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked="">
+                                    <input type="radio" name="tipoconsultac" id="optionsRadios11" value="consejeria" >
                                     Consejería
                                 </label>
                             </div>
                             <div class="radio">
                                 <label>
-                                    <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
+                                    <input type="radio" name="tipoconsultac" id="optionsRadios22" value="serviciomedico">
                                     Servicio médico
                                 </label>
                             </div>
@@ -94,22 +94,44 @@
                         </div>
 
 
+                        <label>Servicio o tema a tratar</label>
                         <div class="form-group">
-                            <label>Servicio o tema a tratar</label>
-                            <select class="form-control">
-                                <option>Seleccionar...</option>
-                                <option>Prueba de VIH</option>
-                                <option>PAP</option>
-                                <option>Consejería</option>
-                                <option>Chequeo</option>
+                            <div class="radio">
 
-                            </select>
+                                <label>
+                                    <input type="radio" name="serviciotemac" id="optionsRadios11" value="pruebadeVIH" >
+                                    Prueba de VIH
+                                </label>
+                            </div>
+                            <div class="radio">
+                                <label>
+                                    <input type="radio" name="serviciotemac" id="optionsRadios22" value="pAP">
+                                    PAP
+                                </label>
+                            </div>
+                            <div class="radio">
+
+                                <label>
+                                    <input type="radio" name="serviciotemac" id="optionsRadios11" value="consejería" >
+                                    Consejería
+                                </label>
+                            </div>
+                            <div class="radio">
+                                <label>
+                                    <input type="radio" name="serviciotemac" id="optionsRadios22" value="chequeo">
+                                    Chequeo
+                                </label>
+                            </div>
+
                         </div>
+
+
+
 
                         <label>Cuota de recuperación</label>
                         <div class="input-group">
                             <span class="input-group-addon"><i class="fa fa-dollar"></i></span>
-                            <input type="number" class="form-control">
+                            <input name="cuotac" type="number" class="form-control" min="1" step="1" max="999">
 
                         </div>
 

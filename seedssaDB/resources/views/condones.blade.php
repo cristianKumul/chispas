@@ -57,52 +57,56 @@
 
 
 
-                        <label>Género</label>
-                        <div class="form-group">
-                            <div class="radio">
+                            <label>Género</label>
+                            <div class="form-group">
+                                <div class="radio">
 
-                                <label>
-                                    <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked="">
-                                    Mujer
-                                </label>
-                            </div>
-                            <div class="radio">
-                                <label>
-                                    <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
-                                    Hombre
-                                </label>
-                            </div>
+                                    <label>
+                                        <input type="radio" name="generocondon" id="optionsRadios1" value="hombre" >
+                                        Hombre
+                                    </label>
+                                </div>
+                                <div class="radio">
+                                    <label>
+                                        <input type="radio" name="generocondon" id="optionsRadios2" value="mujer">
+                                        Mujer
+                                    </label>
+                                </div>
 
-                        </div>
-
-
-                        <label>Visita</label>
-                        <div class="form-group">
-                            <div class="radio">
-
-                                <label>
-                                    <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked="">
-                                    Primera vez
-                                </label>
-                            </div>
-                            <div class="radio">
-                                <label>
-                                    <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
-                                    Consecutiva
-                                </label>
                             </div>
 
-                        </div>
+
+
+                            <label>Visita</label>
+                            <div class="form-group">
+                                <div class="radio">
+
+                                    <label>
+                                        <input type="radio" name="visitacondon" id="optionsRadios1" value="primeravez" >
+                                        Primera vez
+                                    </label>
+                                </div>
+                                <div class="radio">
+                                    <label>
+                                        <input type="radio" name="visitacondon" id="optionsRadios2" value="consecutiva">
+                                        Consecutiva
+                                    </label>
+                                </div>
+
+                            </div>
+
+
+
 
 
 
 
                         <label>Cantidad</label>
-                        <div class="input-group">
-                            <span class="input-group-addon"><i class="fa fa-dollar"></i></span>
-                            <input type="number" class="form-control">
+                            <div class="input-group">
+                                <span class="input-group-addon"><i class="fa fa-dollar"></i></span>
+                                <input name="cuotac" type="number" class="form-control" min="1" step="1" max="999">
 
-                        </div>
+                            </div>
 
 
                  </form>

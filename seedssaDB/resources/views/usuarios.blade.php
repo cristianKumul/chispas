@@ -57,12 +57,14 @@
 
 
                             <div class="form-group has-feedback">
-                                <input type="text" class="form-control" placeholder="Nombre(s) Solicitante">
+                                <label>Nombre (s)</label>
+                                <input name="nombresu"  style="text-transform:uppercase;" type="text" class="form-control" placeholder="Nombre(s) Solicitante">
 
                             </div>
 
                             <div class="form-group has-feedback">
-                                <input type="text" class="form-control" placeholder="Apellidos Solicitante">
+                                <label>Apellidos</label>
+                                <input name="apellidosu"  style="text-transform:uppercase;" type="text" class="form-control" placeholder="Apellidos Solicitante">
 
                             </div>
 
@@ -75,14 +77,16 @@
                                     <div class="input-group-addon">
                                         <i class="fa fa-calendar"></i>
                                     </div>
-                                    <input type="text" class="form-control pull-right active"   id="reservation">
+                                    <input name="fechavisitau" type="text" class="form-control pull-right active"   id="reservation">
 
                                 </div><!-- /.input group -->
                             </div><!-- /.form group -->
 
 
                             <div class="form-group has-feedback">
-                                <input type="number" class="form-control" placeholder="Edad">
+                                <label>Edad</label>
+
+                                <input name="edadsu" type="number" class="form-control" placeholder="Edad" min="1" step="1" max="99">
 
                             </div>
 
@@ -92,7 +96,7 @@
                                 <div class="input-group-addon">
                                     <i class="fa fa-phone"></i>
                                 </div>
-                                <input type="text" class="form-control" data-inputmask="'mask': ['999-999-9999 [x99999]', '+099 99 99 9999[9]-9999']" data-mask="">
+                                <input name="telefonou" type="text" class="form-control" data-inputmask="'mask': ['999-999-9999 [x99999]', '+099 99 99 9999[9]-9999']" data-mask="">
                             </div>
 
                             <br>
@@ -103,7 +107,7 @@
                             <label>Email</label>
                             <div class="input-group">
                                 <span class="input-group-addon"><i class="fa fa-envelope"></i></span>
-                                <input type="email" class="form-control" placeholder="Email">
+                                <input name="emailu" type="email" class="form-control" placeholder="Email">
                             </div>
 
                             <br>
@@ -113,80 +117,186 @@
                             </div>
 
 
+                            <div class="col-md-6">
+                            <label>Género</label>
                             <div class="form-group">
-                                <label>Género</label>
-                                <select class="form-control">
-                                    <option>Seleccionar...</option>
-                                    <option>Hombre</option>
-                                    <option>Mujer</option>
+                                <div class="radio">
 
-                                </select>
+                                    <label>
+                                        <input type="radio" name="generou" id="optionsRadios1" value="hombre" >
+                                        Hombre
+                                    </label>
+                                </div>
+                                <div class="radio">
+                                    <label>
+                                        <input type="radio" name="generou" id="optionsRadios2" value="mujer">
+                                        Mujer
+                                    </label>
+                                </div>
+
                             </div>
 
 
+                            <label>Identidad G</label>
                             <div class="form-group">
-                                <label>Identidad G</label>
-                                <select class="form-control">
-                                    <option>Seleccionar...</option>
-                                    <option>Transexual H</option>
-                                    <option>Transexual M</option>
+                                <div class="radio">
 
-                                </select>
+                                    <label>
+                                        <input type="radio" name="identidadu" id="optionsRadios1" value="transexualh" >
+                                        Transexual H
+                                    </label>
+                                </div>
+                                <div class="radio">
+                                    <label>
+                                        <input type="radio" name="identidadu" id="optionsRadios2" value="transexualm">
+                                        Transexual M
+                                    </label>
+                                </div>
+
                             </div>
 
 
+                            <label>Preferencia G</label>
                             <div class="form-group">
-                                <label>Preferencia G</label>
-                                <select class="form-control">
-                                    <option>Seleccionar...</option>
-                                    <option>Heterosexual</option>
-                                    <option>Homosexual</option>
-                                    <option>Lesbiana</option>
-                                    <option>Bisexual</option>
+                                <div class="radio">
 
-                                </select>
-                            </div>
+                                    <label>
+                                        <input type="radio" name="preferenciau" id="optionsRadios1" value="heterosexual" >
+                                        Heterosexual
+                                    </label>
+                                </div>
+                                <div class="radio">
+                                    <label>
+                                        <input type="radio" name="preferenciau" id="optionsRadios2" value="homosexual">
+                                        Homosexual
+                                    </label>
+                                    </div>
+                                    <div class="radio">
+                                    <label>
+                                        <input type="radio" name="preferenciau" id="optionsRadios1" value="lesbiana" >
+                                        Lesbiana
+                                    </label>
+                                </div>
+                                <div class="radio">
+                                    <label>
+                                        <input type="radio" name="preferenciau" id="optionsRadios2" value="bisexual">
+                                        Bisexual
+                                    </label>
+                                </div>
 
-
-                            <div class="form-group">
-                                <label>Estado Civil</label>
-                                <select class="form-control">
-                                    <option>Seleccionar...</option>
-                                    <option>Solter@</option>
-                                    <option>Casad@</option>
-                                    <option>Divorciad@</option>
-                                    <option>Viud@</option>
-
-                                </select>
-                            </div>
-
-
-                            <div class="form-group">
-                                <label>Ocupación</label>
-                                <select class="form-control">
-                                    <option>Seleccionar...</option>
-                                    <option>Estudiante</option>
-                                    <option>Trabajador</option>
-                                    <option>Ninguna</option>
-
-
-                                </select>
                             </div>
 
 
 
+
+
+                            <label>Estado Civil</label>
                             <div class="form-group">
-                                <label>Escolaridad</label>
-                                <select class="form-control">
-                                    <option>Seleccionar...</option>
-                                    <option>Primaria</option>
-                                    <option>Secundaria</option>
-                                    <option>Preparatoria/Bachillerato</option>
-                                    <option>Técnico</option>
-                                    <option>Universidad</option>
-                                    <option>Ninguna</option>
-                                </select>
+                                <div class="radio">
+
+                                    <label>
+                                        <input type="radio" name="estadocivilu" id="optionsRadios1" value="solter@" >
+                                        Solter@
+                                    </label>
+                                </div>
+                                <div class="radio">
+                                    <label>
+                                        <input type="radio" name="estadocivilu" id="optionsRadios2" value="casad@">
+                                        Casad@
+                                    </label>
+                                </div>
+                                    <div class="radio">
+                                    <label>
+                                        <input type="radio" name="estadocivilu" id="optionsRadios1" value="divorciad@" >
+                                        Divorciad@
+                                    </label>
+                                </div>
+                                <div class="radio">
+                                    <label>
+                                        <input type="radio" name="estadocivilu" id="optionsRadios2" value="viud@">
+                                        Viud@
+                                    </label>
+                                </div>
+
                             </div>
+
+                            </div>
+                            <div class="col-md-6">
+
+
+                            <label>Ocupación</label>
+                            <div class="form-group">
+                                <div class="radio">
+
+                                    <label>
+                                        <input type="radio" name="ocupacionu" id="optionsRadios1" value="estudiante" >
+                                        Estudiante
+                                    </label>
+                                </div>
+                                <div class="radio">
+                                    <label>
+                                        <input type="radio" name="ocupacionu" id="optionsRadios2" value="trabajador">
+                                        Trabajador
+                                    </label>
+                                </div>
+                                <div class="radio">
+                                    <label>
+                                        <input type="radio" name="ocupacionu" id="optionsRadios1" value="ninguna" >
+                                        Ninguna
+                                    </label>
+                                </div>
+
+
+                            </div>
+
+
+                            <label>Escolaridad</label>
+                            <div class="form-group">
+                                <div class="radio">
+
+                                    <label>
+                                        <input type="radio" name="escolaridadu" id="optionsRadios1" value="primaria" >
+                                        Primaria
+                                    </label>
+                                </div>
+                                <div class="radio">
+                                    <label>
+                                        <input type="radio" name="escolaridadu" id="optionsRadios2" value="secundaria">
+                                        Secundaria
+                                    </label>
+                                </div>
+                                <div class="radio">
+                                    <label>
+                                        <input type="radio" name="escolaridadu" id="optionsRadios1" value="preparatoria" >
+                                        Preparatoria/Bachillerato
+                                    </label>
+                                </div>
+
+                                <div class="radio">
+
+                                    <label>
+                                        <input type="radio" name="escolaridadu" id="optionsRadios1" value="tecnico" >
+                                        Técnico
+                                    </label>
+                                </div>
+                                <div class="radio">
+                                    <label>
+                                        <input type="radio" name="escolaridadu" id="optionsRadios2" value="universidad">
+                                        Universidad
+                                    </label>
+                                </div>
+                                <div class="radio">
+                                    <label>
+                                        <input type="radio" name="escolaridadu" id="optionsRadios1" value="ninguna" >
+                                        Ninguna
+                                    </label>
+                                </div>
+
+
+                            </div>
+
+                                </div>
+
 
 
 
