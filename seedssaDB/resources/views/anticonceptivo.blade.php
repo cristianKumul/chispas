@@ -5,6 +5,9 @@
 @endsection
 
 @section('main-content')
+
+
+
     <section class="content-header">
 
         <div class="col-lg-12 col-xs-12">
@@ -45,23 +48,33 @@
                             <!-- FALTA IDENTIFICADORES PENDIENTE -->
 
 
-                            <div class="form-group">
-                                <label>Alergias</label>
-                                <select class="form-control">
-                                    <option>Seleccionar...</option>
-                                    <option>Si</option>
-                                    <option>No</option>
-                                    <option>No se</option>
 
 
-                                </select>
-                            </div>
 
 
-                            <div class="form-group">
-                                <label>¿Cuáles?</label>
-                                <input type="text" class="form-control" placeholder="">
-                            </div>
+                            <label>Alergias</label>
+
+
+                                    <label>
+                                        <input type="radio" name="optionsRadios" class="rg" id="r1">
+                                        Si
+                                    </label>
+
+                                    <label>
+                                        <input type="radio" name="optionsRadios" class="rg" id="r2">
+                                        No
+                                    </label>
+
+                                <input type="text" id=r1edit placeholder="Enter ...">
+
+
+
+
+
+
+
+
+
 
                             <div class="form-group">
                                 <label>Enfermedades Infectocontagiosas</label>
@@ -416,5 +429,10 @@
     </div><!--/.col (right) -->
     </div>   <!-- /.row -->
 </section>
+
+
+
+
+
 
 @endsection
