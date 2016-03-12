@@ -30,9 +30,11 @@ Route::get('/usuarios', function () {
 /*---------------------------------------
  * MODULO DE ADMINISTRACIÓN RUTAS
  * ---------------------------------------
- *
+ *hola
  *
  */
+
+
 
 
 Route::group(['prefix' => 'admin', 'middleware' => 'web','namespace' => 'Admin'], function() {
