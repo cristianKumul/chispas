@@ -18,12 +18,7 @@
                     <i class="fa fa-file-pdf-o"></i>
 
                 </div>
-
-
-
-
-
-
+            </div>
+        </div>
     </section>
-
 @endsection

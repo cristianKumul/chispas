@@ -19,12 +19,8 @@
                     <i class="fa fa-female"></i>
 
                 </div>
-
-
-
-
-
-
+            </div>
+        </div>
     </section>
 
 @endsection

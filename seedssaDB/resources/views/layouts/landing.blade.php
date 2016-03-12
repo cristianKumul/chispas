@@ -3,97 +3,93 @@
 Landing page based on Pratt: http://blacktie.co/demo/pratt/
 -->
 <html lang="en">
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Pratt - Free Bootstrap 3 Theme">
-    <meta name="author" content="Alvarez.is - BlackTie.co">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Pratt - Free Bootstrap 3 Theme">
+        <meta name="author" content="Alvarez.is - BlackTie.co">
 
-    <title>SEEDSSA</title>
+        <title>SEEDSSA</title>
 
-    <link rel="shortcut icon" href="img/faviconse.ico">
+        <link rel="shortcut icon" href="img/faviconse.ico">
 
-    <!-- Bootstrap core CSS -->
-    <link href="{{ asset('/css/bootstrap.css') }}" rel="stylesheet">
+        <!-- Bootstrap core CSS -->
+        <link href="{{ asset('/css/bootstrap.css') }}" rel="stylesheet">
 
-    <!-- Custom styles for this template -->
-    <link href="{{ asset('/css/main.css') }}" rel="stylesheet">
+        <!-- Custom styles for this template -->
+        <link href="{{ asset('/css/main.css') }}" rel="stylesheet">
 
-    {{--<link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic' rel='stylesheet' type='text/css'>--}}
-    <link href='http://fonts.googleapis.com/css?family=Raleway:400,300,700' rel='stylesheet' type='text/css'>
+        {{--<link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic' rel='stylesheet' type='text/css'>--}}
+        <link href='http://fonts.googleapis.com/css?family=Raleway:400,300,700' rel='stylesheet' type='text/css'>
 
-    <link href="{{ asset('/plugins/iCheck/square/purple.css') }}" rel="stylesheet" type="text/css" />
+        <link href="{{ asset('/plugins/iCheck/square/purple.css') }}" rel="stylesheet" type="text/css" />
 
-    <script src="{{ asset('/plugins/jQuery/jQuery-2.1.4.min.js') }}"></script>
-    <script src="{{ asset('/js/smoothscroll.js') }}"></script>
-    <script src="{{asset('/plugins/iCheck/icheck.js')}}" type="text/javascript"></script>
+        <script src="{{ asset('/plugins/jQuery/jQuery-2.1.4.min.js') }}"></script>
+        <script src="{{ asset('/js/smoothscroll.js') }}"></script>
+        <script src="{{asset('/plugins/iCheck/icheck.js')}}" type="text/javascript"></script>
 
+    </head>
 
+    <body data-spy="scroll" data-offset="0" data-target="#navigation">
 
+    <!-- Fixed navbar -->
+        <div id="navigation" class="navbar navbar-default navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    {{--<a class="navbar-brand" href="#"><b>SEEDSSA</b></a>--}}
+                </div>
 
-
-
-
-</head>
-
-<body data-spy="scroll" data-offset="0" data-target="#navigation">
-
-<!-- Fixed navbar -->
-<div id="navigation" class="navbar navbar-default navbar-fixed-top">
-    <div class="container">
-        <div class="navbar-header">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            {{--<a class="navbar-brand" href="#"><b>SEEDSSA</b></a>--}}
-        </div>
-
-
-
-
-        <div class="navbar-collapse collapse">
-           {{-- <ul class="nav navbar-nav">
-                <li class="active"><a href="#home" class="smoothScroll">Home</a></li>
-                <li><a href="#desc" class="smoothScroll">Description</a></li>
-                <li><a href="#showcase" class="smoothScroll">Showcase</a></li>
-                <li><a href="#contact" class="smoothScroll">Contact</a></li>
-            </ul>--}}
-            <ul class="nav navbar-nav navbar-right">
-                @if (Auth::guest())
-                    <li><a href="{{ url('/login') }}">Login</a></li>
-                    <li><a href="{{ url('/register') }}">Register</a></li>
-                @else
-                    <li><a href="/home">{{ Auth::user()->name }}</a></li>
-                @endif
-            </ul>
-        </div><!--/.nav-collapse -->
-
-
-
-    </div>
-</div>
-
-
-<section id="home" name="home"></section>
-<div>
-    <div class="container">
-        <div class="row centered">
-
-            <div class="col-lg-12">
-                <br>
-                <br>
-                <br>
-                <br>
-
-
-        </div>
-
-            <div class="col-lg-12">
-                <img class="img-responsive" src="{{ asset('/img/LOGO_SEEDSSA.png') }}" alt="">
+                <div class="navbar-collapse collapse">
+                   {{-- <ul class="nav navbar-nav">
+                        <li class="active"><a href="#home" class="smoothScroll">Home</a></li>
+                        <li><a href="#desc" class="smoothScroll">Description</a></li>
+                        <li><a href="#showcase" class="smoothScroll">Showcase</a></li>
+                        <li><a href="#contact" class="smoothScroll">Contact</a></li>
+                    </ul>--}}
+                    <ul class="nav navbar-nav navbar-right">
+                        @if (Auth::guest())
+                            <li><a href="{{ url('/login') }}">Login</a></li>
+                            <li><a href="{{ url('/register') }}">Register</a></li>
+                        @else
+                            <li><a href="/home">{{ Auth::user()->name }}</a></li>
+                        @endif
+                    </ul>
+                </div><!--/.nav-collapse -->
             </div>
+        </div>
 
+
+        <section id="home" name="home"></section>
+            <div>
+                <div class="container">
+                    <div class="row centered">
+                        <div class="col-lg-12">
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                        </div>
+                        <div class="col-lg-12">
+                            <img class="img-responsive" src="{{ asset('/img/LOGO_SEEDSSA.png') }}" alt="">
+                        </div>
+                    </div>
+                </div> <!--/ .container -->
+            </div><!--/ #headerwrap -->
+
+
+            <script src="{{ asset('/js/bootstrap.min.js') }}" type="text/javascript"></script>
+            <script>
+                $('.carousel').carousel({
+                    interval: 3500
+                })
+            </script>
+    </body>
+</html>
 
             {{--<div class="col-lg-12">
                 <h1>Acacha <b><a href="https://github.com/acacha/adminlte-laravel">adminlte-laravel</a></b></h1>
@@ -116,9 +112,7 @@ Landing page based on Pratt: http://blacktie.co/demo/pratt/
                 <h5>Awesome packaged...</h5>
                 <p>... by <a href="http://acacha.org/sergitur">Sergi Tur Badenas</a> at <a href="http://acacha.org">acacha.org</a> ready to use with Laravel!</p>
             </div>--}}
-        </div>
-    </div> <!--/ .container -->
-</div><!--/ #headerwrap -->
+
 {{--
 
 
@@ -316,16 +310,4 @@ Landing page based on Pratt: http://blacktie.co/demo/pratt/
 <!-- Bootstrap core JavaScript
 ================================================== -->
 <!-- Placed at the end of the document so the pages load faster -->
-<script src="{{ asset('/js/bootstrap.min.js') }}" type="text/javascript"></script>
-<script>
-    $('.carousel').carousel({
-        interval: 3500
-    })
-</script>
 
-
-
-
-
-</body>
-</html>

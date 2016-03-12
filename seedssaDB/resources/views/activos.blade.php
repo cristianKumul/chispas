@@ -6,7 +6,6 @@
 
 @section('main-content')
     <section class="content-header">
-
         <div class="col-lg-12 col-xs-12">
             <!-- small box -->
             <div class="small-box bg-yellow">
@@ -16,14 +15,9 @@
                 </div>
                 <div class="icon">
                     <i class="fa fa-shopping-cart"></i>
-
                 </div>
-
-
-
-
-
-
+            </div>
+        </div>
     </section>
 
 @endsection

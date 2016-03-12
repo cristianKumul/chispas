@@ -6,7 +6,6 @@
 
 @section('main-content')
     <section class="content-header">
-
         <div class="col-lg-12 col-xs-12">
             <!-- small box -->
             <div class="small-box bg-red">
@@ -18,12 +17,8 @@
                     <i class="fa fa-file-pdf-o"></i>
 
                 </div>
-
-
-
-
-
-
+            </div>
+        </div>
     </section>
 
 @endsection
