@@ -7,7 +7,6 @@
 
 
 <script>
-
     $(function () {
         $('input').iCheck({
             checkboxClass: 'icheckbox_square-purple',
@@ -15,8 +14,4 @@
             increaseArea: '20%' // optional
         });
     });
-
-
-
-
 </script>

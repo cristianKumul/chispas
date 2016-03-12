@@ -12,19 +12,15 @@
             <div class="small-box bg-green">
 
                 <div class="inner">
-                    <h4><b>Registros de Administración</b></h4>
+                    <h4><b>Index</b></h4>
 
                 </div>
-                <div class="icon">
-                    <i class="fa fa-users"></i>
+                <div class="icon">∫
+                    <i class="fa fa-user"></i>
 
                 </div>
-
-
-
-
-
-
+            </div>
+        </div>
     </section>
 
 @endsection

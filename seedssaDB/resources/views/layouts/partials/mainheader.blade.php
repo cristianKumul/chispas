@@ -1,28 +1,10 @@
 <!-- Main Header -->
 <header class="main-header">
 
-
-    {{--<link href="{{ asset('/css/bootstrap.css') }}" rel="stylesheet">
-
-    <!-- Custom styles for this template -->
-    <link href="{{ asset('/css/main.css') }}" rel="stylesheet">
-
-    --}}{{--<link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic' rel='stylesheet' type='text/css'>--}}{{--
-    <link href='http://fonts.googleapis.com/css?family=Raleway:400,300,700' rel='stylesheet' type='text/css'>
-
-    <link href="{{ asset('/plugins/iCheck/square/purple.css') }}" rel="stylesheet" type="text/css" />
-
-
-    <script src="{{asset('/plugins/iCheck/icheck.js')}}" type="text/javascript"></script>--}}
-
-
     <!-- Logo -->
-      <a href="{{ url('/home') }}" class="logo">
-
+    <a href="{{ url('/home') }}" class="logo">
         <span class="logo-mini"><li class="glyphicon glyphicon-home"></li> </span>
-
-                 {{--<img src="{{asset('/img/logo_perfil.jpg')}}" class="img-responsive"  />--}}
-
+        {{--<img src="{{asset('/img/logo_perfil.jpg')}}" class="img-responsive"  />--}}
         <span class="logo-lg"><b>Admin</b>SEEDSSA</span>
     </a>
 
@@ -35,6 +17,88 @@
         <!-- Navbar Right Menu -->
         <div class="navbar-custom-menu">
             <ul class="nav navbar-nav">
+
+              {{--<!--  @if (Auth::guest())-->--}}
+                    @if (Auth::guest())
+                    <li><a href="{{ url('/login') }}">Login</a></li>
+                    <li><a href="{{ url('/register') }}">Register</a></li>
+                        <div>NO ESTAS LOGUEADO</div>
+                @else
+                    <li class="dropdown user user-menu">
+                        <!-- Menu Toggle Button -->
+                        <a href="/home" class="dropdown-toggle" data-toggle="dropdown">
+                            <!-- The user image in the navbar-->
+                            <img src="/img/user2-160x160.jpg" class="user-image" alt="User Image"/>
+                            <!-- hidden-xs hides the username on small devices so only the image appears. -->
+                            <span class="hidden-xs">{{ Auth::user()->name }}</span>
+
+                    <li class="hidden-xs"><a href="{{ url('/logout') }}">Sign out </a></li>
+                    </a>
+                    </li>
+                @endif
+
+            </ul>
+        </div>
+    </nav>
+</header>
+
+
+
+
+
+{{--<!-- Main Header -->
+<header class="main-header">
+
+
+    <!-- Logo -->
+    <a href="{{ url('/home') }}" class="logo">
+        <span class="logo-mini"><li class="glyphicon glyphicon-home"></li> </span>
+                 --}}{{--<img src="{{asset('/img/logo_perfil.jpg')}}" class="img-responsive"  />--}}{{--
+        <span class="logo-lg"><b>Admin</b>SEEDSSA</span>
+    </a>
+    <!-- Header Navbar -->
+    <nav class="navbar navbar-static-top" role="navigation">
+        <!-- Sidebar toggle button-->
+        <a href="#" class="sidebar-toggle" data-toggle="offcanvas" role="button">
+            <span class="sr-only">Toggle navigation</span>
+        </a>
+            <div class="navbar-custom-menu">
+                <ul class="nav navbar-nav">
+                    @if (Auth::user())
+
+                        <li class="dropdown user user-menu">
+                            <!-- Menu Toggle Button -->
+                            <a href="/home" class="dropdown-toggle" data-toggle="dropdown">
+                                <!-- The user image in the navbar-->
+                                <img src="/img/user2-160x160.jpg" class="user-image" alt="User Image"/>
+                                <!-- hidden-xs hides the username on small devices so only the image appears. -->
+                                <span class="hidden-xs">{{ Auth::user()->name }}</span>
+
+                        <li class="hidden-xs"><a href="{{ url('/logout') }}">Sign out </a></li>
+                        </a>
+                        </li>
+                    @endif
+                </ul>
+            </div>
+    </nav>
+</header>--}}
+
+
+
+{{--BLOQUE COMENTARIO NO BORRAR--}}
+{{--<link href="{{ asset('/css/bootstrap.css') }}" rel="stylesheet">
+
+ <!-- Custom styles for this template -->
+ <link href="{{ asset('/css/main.css') }}" rel="stylesheet">
+
+ --}}{{--<link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic' rel='stylesheet' type='text/css'>--}}{{--
+ <link href='http://fonts.googleapis.com/css?family=Raleway:400,300,700' rel='stylesheet' type='text/css'>
+
+ <link href="{{ asset('/plugins/iCheck/square/purple.css') }}" rel="stylesheet" type="text/css" />
+
+ <script src="{{asset('/plugins/iCheck/icheck.js')}}" type="text/javascript"></script>--}}
+
+
                 <!-- Messages: style can be found in dropdown.less-->
                {{-- <li class="dropdown messages-menu">
                     <!-- Menu toggle button -->
@@ -125,23 +189,7 @@
                         </li>
                     </ul>
                 </li>--}}
-              @if (!Auth::guest())
 
-                    <li class="dropdown user user-menu">
-                        <!-- Menu Toggle Button -->
-                    <a href="/home" class="dropdown-toggle" data-toggle="dropdown">
-                            <!-- The user image in the navbar-->
-                    <img src="/img/user2-160x160.jpg" class="user-image" alt="User Image"/>
-                    <!-- hidden-xs hides the username on small devices so only the image appears. -->
-                    <span class="hidden-xs">{{ Auth::user()->name }}</span>
-
-                    <li class="hidden-xs"><a href="{{ url('/logout') }}">Sign out </a></li>
-                    </a>
-
-
-
-                    </li>
-                @endif
 
 
 
@@ -187,7 +235,3 @@
                 {{--<li>
                     <a href="#" data-toggle="control-sidebar"><i class="fa fa-gears"></i></a>
                 </li>--}}
-            </ul>
-        </div>
-    </nav>
-</header>

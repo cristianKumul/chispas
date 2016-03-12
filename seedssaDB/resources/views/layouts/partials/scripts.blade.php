@@ -15,8 +15,6 @@
       user experience. Slimscroll is required when using the
       fixed layout. -->
 
-
-
 <script src="{{asset('/plugins/datepicker/bootstrap-datepicker.js')}}"  type="text/javascript" ></script>
 
 <script src="{{asset('/plugins/colorpicker/bootstrap-colorpicker.js')}}"  type="text/javascript" ></script>
@@ -27,11 +25,7 @@
 <script>
     $('#reservation').datepicker("setDate",'today');
 
-
-
-
 </script>
-
 
 
 {{--// anticonceptivo.blade--}}
@@ -150,37 +144,17 @@
 
         });
 
+        {{--// usuarioos.blade--}}
 
+        //
+        $("#btn11").click(function(){
+            $("#desplegar11").collapse('show');
+        });
+        $("#btn11").click(function(){
+            $("#text11").val('');
+            $("#desplegar11").collapse('hide');
 
-
-
-
-        /*
-
-                $("#btn1").click(function(){
-                    $("#desplegar2").collapse('show');
-                });
-                $("#btnclear1").click(function(){
-                    $("#desplegar2").collapse('hide');
-                });
-
-                $("#btnclear1").click(function(e) {
-                    e.preventDefault();
-                    $("#text1").val('');
-                });
-        */
-
-
-
-
-
-
-
-
-
-
-
-
+        });
 
 </script>
 

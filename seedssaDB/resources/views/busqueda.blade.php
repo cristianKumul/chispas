@@ -12,18 +12,12 @@
             <div class="small-box bg-aqua">
                 <div class="inner">
                     <h4><b>Búsqueda</b></h4>
-
                 </div>
                 <div class="icon">
                     <i class="fa fa-search"></i>
-
                 </div>
-
-
-
-
-
-
+            </div>
+        </div>
     </section>
 
 @endsection

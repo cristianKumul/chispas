@@ -5,9 +5,7 @@
 @endsection
 
 
-
 @section('main-content')
-
 
 	<section class="content-header">
 
@@ -15,30 +13,16 @@
 
 		<br>
 		<br>
-
-
-		{{--<div class="col-lg-12 col-xs-12">
-			<img class="img-responsive" src="{{ asset('/img/LOGO_SEEDSSA2.png') }}" alt="">
-
-			<br>
-
-		</div>--}}
-
-
 	</section> <!--/ .section headerr -->
 
 	<br>
 
-
 	<section class="content">
-
-
 		<div class="col-lg-12 col-xs-12">
 			<!-- small box -->
 			<div class="small-box bg-aqua">
 				<div class="inner">
 					<h3>Usuarios</h3>
-
 				</div>
 				<div class="icon">
 					<i class="glyphicon glyphicon-user"></i>
@@ -55,7 +39,6 @@
 			<div class="small-box bg-yellow">
 				<div class="inner">
 					<h3>Consulta</h3>
-
 				</div>
 				<div class="icon">
 					<i class="fa fa-stethoscope"></i>
@@ -83,21 +66,7 @@
 			</div>
 		</div>
 
-
-
-
-
-
-
-
-
-
-
-
 	</section>
-
-
-
 @endsection
 
 

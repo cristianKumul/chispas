@@ -19,12 +19,8 @@
                     <i class="fa fa-user"></i>
 
                 </div>
-
-
-
-
-
-
+            </div>
+        </div>
     </section>
 
 @endsection

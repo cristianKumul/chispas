@@ -18,12 +18,8 @@
                     <i class="fa fa-cart-plus"></i>
 
                 </div>
-
-
-
-
-
-
+            </div>
+        </div>
     </section>
 
 @endsection

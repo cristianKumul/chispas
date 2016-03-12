@@ -34,6 +34,14 @@ Route::get('/usuarios', function () {
  *
  */
 
+
+Route::group(['prefix' => 'admin', 'middleware' => 'web','namespace' => 'Admin'], function() {
+
+    Route::resource('users', 'UserController');
+});
+
+
+
 Route::get('/recepcionista', function () {
     return view('recepcionista');
 });
