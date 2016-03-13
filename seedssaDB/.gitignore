@@ -5,3 +5,17 @@ Homestead.yaml
 Homestead.json
 .env
 /.idea
+# Data
+data/logs/
+data/cache/
+data/sessions/
+data/tmp/
+temp/
+
+# Legacy ZF1
+demos/
+extras/documentation
+
+
+
+
